@@ -1,0 +1,88 @@
+.container{
+
+    width:100%; 
+    height: calc(100vh - 76px);
+    background-color: black; 
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.logoContent{
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+
+
+} 
+
+.hero{
+    max-width: 480px; 
+    object-fit: contain; /*img se encaixa dentro deste tamanho sem distorcer */
+    width: auto;
+    height: auto;
+
+}
+
+.h1{
+   color: white;
+   text-align: center;
+   line-height: 150%;
+   margin: 28px; 
+
+}
+
+.infoContent{
+    display:flex;     
+    align-items:center;
+    justify-content: space-between;
+    width: 100%;       /* ocupa a largura toda do pai */
+  max-width: 480px;  /* se quiser limitar */
+  margin: 0 auto; 
+   
+}
+
+.box{
+    background-color: white;
+    padding: 14px 44px ; 
+    border-radius: 4px; 
+    transition: transform 0.4s ;
+}
+
+
+.box:hover{
+    transform : scale(1.08);
+
+
+}
+
+@media screen and (max-width:500px){
+
+    .hero{
+        max-width:  80%;
+
+    }
+
+    .h1{
+        font-size:24px; 
+    }
+
+
+    .infoContent{
+        flex-direction: column;
+    }
+
+    .box{
+        width: 80%;
+        margin-bottom: 14px;
+        text-align: center;
+        
+    }
+}
+
+
+
+
