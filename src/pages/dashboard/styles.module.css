@@ -1,4 +1,143 @@
 .container{
+   width: 100%;
+
+}
+
+.content{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
 
 
+.contentForm{
+    max-width: 1024px;
+    width: 100%;
+    padding: 0 18px;
+    padding-bottom: 28px;
+    margin-top: 58px;
+}
+
+
+.title{
+    color: white;
+    margin-bottom: 8px;
+    
+}
+
+
+
+.checkboxArea label{
+
+    margin-left: 8px; 
+    color:white;
+
+}
+
+.checkboxArea{
+        margin: 14px 0 ;
+
+}
+
+.checkbox{
+    width: 18px;
+    height: 18px;
+}
+
+
+.button{
+    width: 100%;
+    border: 0 ; 
+    border-radius: 4px;
+    color: white;
+    background-color: #3183ff;
+    padding: 12px 0 ;
+    font-size: 18px;
+     
+}
+
+
+
+.taskContainer{
+    margin: 24px auto 0 auto;
+    padding: 0 18px; 
+    width: 100%;
+    max-width: 1024px;
+    display:flex;
+    flex-direction: column;
+}
+
+.taskContainer a {
+    text-decoration: none;
+    color: black;
+}
+
+.taskContainer h1{
+
+    text-align: center;
+    font-size : 32px; 
+    margin-bottom: 14px; 
+
+}
+
+
+.task{
+    margin-bottom:14px;
+    line-height: 150%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    border:solid 1.5px #909090;
+    border-radius: 4px;
+    padding: 14px;
+
+}
+
+
+.tagContainer{
+    display:flex;
+    align-items:center ;
+    justify-content:  center;
+    margin-bottom : 8px;
+    
+}
+
+
+.tag{
+    background-color: #3183ff;
+    padding: 2px 6px;
+    color: white;
+    border-radius:  4px;
+    font-size : 12px;
+}
+
+
+.shareButton{
+    background-color: transparent;
+    border: 0 ;
+    margin: 0 8px;
+    cursor: pointer;
+
+}
+
+.taskContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+
+.taskContent p{
+    white-space: pre-wrap;  /* Respeita as quebras de linha que colocar nas tarefas */
+}
+
+.trashButton{
+    cursor: pointer ;
+    background-color: transparent;
+    margin: 0 8px; 
+    border:  0;
 }
